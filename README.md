@@ -1,16 +1,47 @@
-# React + Vite
+# 🎓 Student & Faculty Achievement Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A web-based portal for managing and verifying student achievements with separate dashboards for Students, Faculty, and Administrators.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
+https://student-and-faculty-achievement-por.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📂 GitHub Repository
+https://github.com/KIRANKUMARV2007/STUDENT-AND-FACULTY-ACHIEVEMENT-PORTALPROJECT
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Multi-role Authentication (Student, Faculty, Admin)
+- Student Achievement Submission
+- Faculty Approval Workflow
+- Reward Point Calculation
+- Leaderboard
+- Notifications
+- Admin Dashboard
+- Department Management
+- Achievement Category Management
+- Responsive UI
+- Secure Supabase Authentication
 
-## Expanding the Oxlint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React (Vite)
+- JavaScript
+- Supabase
+- PostgreSQL
+- Bootstrap 5
+- Chart.js
+- Vercel
+
+## 📸 Screenshots
+
+(Add project screenshots here)
+
+## 👨‍💻 Team
+
+- Kiran Kumar V – Team Leader (Frontend & Integration)
+- Praveen Kumar J – Backend & Database
+- Rithickroshan C – Verification, Admin & Testing
+
+## 📜 License
+
+Academic Project
