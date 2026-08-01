@@ -1,0 +1,35 @@
+.podium-section {
+  display: flex;
+  align-items: flex-end;
+}
+
+.podium-card {
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+}
+
+.avatar-wrapper {
+  width: 80px;
+  height: 80px;
+}
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rank-1 .avatar-wrapper {
+  width: 110px;
+  height: 110px;
+}
+
+.rank-badge {
+  width: 32px;
+  height: 32px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.hover-highlight:hover {
+  background-color: #e2e8f0 !important;
+}

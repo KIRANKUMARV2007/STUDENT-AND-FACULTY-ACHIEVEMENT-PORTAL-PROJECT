@@ -1,0 +1,38 @@
+.stat-card {
+  border-radius: 16px;
+  transition: transform 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-3px);
+}
+
+.filter-tabs .btn {
+  font-size: 0.9rem;
+}
+
+.achievement-card {
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievement-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05) !important;
+}
+
+.bg-success-subtle {
+  background-color: #d1e7dd !important;
+}
+
+.bg-warning-subtle {
+  background-color: #fff3cd !important;
+}
+
+.bg-info-subtle {
+  background-color: #cff4fc !important;
+}
+
+.text-info {
+  color: #055160 !important;
+}

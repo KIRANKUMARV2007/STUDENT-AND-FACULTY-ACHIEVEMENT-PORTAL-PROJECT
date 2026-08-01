@@ -1,0 +1,9 @@
+.project-card:hover {
+  background-color: #f8f9fa !important;
+  cursor: pointer;
+  border-color: var(--primary-color, #2156a6) !important;
+}
+
+.public-profile-page .badge {
+  letter-spacing: 0.5px;
+}

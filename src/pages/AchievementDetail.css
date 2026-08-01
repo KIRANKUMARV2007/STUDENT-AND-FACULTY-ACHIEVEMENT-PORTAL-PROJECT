@@ -1,0 +1,11 @@
+.timeline-vertical {
+  position: relative;
+}
+
+.achievement-detail-page .hover-highlight {
+  transition: background-color 0.2s ease;
+}
+
+.achievement-detail-page .hover-highlight:hover {
+  background-color: #f1f5f9;
+}

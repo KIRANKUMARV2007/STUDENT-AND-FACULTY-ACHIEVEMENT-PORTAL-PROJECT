@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Technova Portal</title>
+    <style>
+        body { font-family: 'Inter', sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #0f172a; margin: 0; color: #fff;}
+        .login-container { background: #1e293b; padding: 2.5rem; border-radius: 12px; box-shadow: 0 10px 15px rgba(0,0,0,0.3); width: 100%; max-width: 400px; border: 1px solid #334155;}
+        h1 { text-align: center; color: #f8fafc; margin-bottom: 2rem; font-size: 1.5rem; }
+        .form-group { margin-bottom: 1.25rem; }
+        label { display: block; margin-bottom: 0.5rem; color: #94a3b8; font-size: 0.875rem; }
+        input { width: 100%; padding: 0.75rem; border: 1px solid #475569; background: #0f172a; color: white; border-radius: 6px; box-sizing: border-box; outline: none; transition: border 0.3s; }
+        input:focus { border-color: #3b82f6; }
+        button { width: 100%; padding: 0.875rem; background-color: #3b82f6; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 1rem; font-weight: bold; margin-top: 1rem; transition: background 0.3s; }
+        button:hover { background-color: #2563eb; }
+        button:disabled { background-color: #475569; cursor: not-allowed; }
+        .error { color: #ef4444; font-size: 0.875rem; text-align: center; margin-top: 1rem; display: none; background: rgba(239, 68, 68, 0.1); padding: 10px; border-radius: 6px; }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Sign In to Technova</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" required placeholder="you@example.com">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required placeholder="••••••••">
+            </div>
+            <button type="submit">Login</button>
+            <div id="errorMessage" class="error"></div>
+        </form>
+    </div>
+
+    <!-- Note: type="module" is required to use ES module imports in the browser -->
+    <script type="module" src="./login.js"></script>
+</body>
+</html>
