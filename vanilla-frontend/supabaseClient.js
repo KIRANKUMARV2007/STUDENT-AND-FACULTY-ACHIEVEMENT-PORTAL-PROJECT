@@ -5,7 +5,7 @@ import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 // REPLACE THESE WITH YOUR ACTUAL URL AND ANON KEY IF THEY CHANGE
 // You requested to know where to add them: right here!
 // =========================================================================
-const supabaseUrl = 'https://vxheiccswdxlssftbxhz.supabase.co'
-const supabaseAnonKey = 'sb_publishable_oQZCSpp6FyHM1XOFKS-SuA_242Hqo9n'
+const supabaseUrl = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_SUPABASE_URL) || window?.ENV?.VITE_SUPABASE_URL || '';
+const supabaseAnonKey = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_SUPABASE_ANON_KEY) || window?.ENV?.VITE_SUPABASE_ANON_KEY || '';
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey)

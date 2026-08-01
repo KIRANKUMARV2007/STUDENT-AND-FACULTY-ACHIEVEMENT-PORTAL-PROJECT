@@ -1,7 +1,7 @@
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = 'https://vxheiccswdxlssftbxhz.supabase.co';
-const supabaseKey = 'sb_publishable_oQZCSpp6FyHM1XOFKS-SuA_242Hqo9n';
+const supabaseUrl = process.env.VITE_SUPABASE_URL;
+const supabaseKey = process.env.VITE_SUPABASE_ANON_KEY;
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 async function checkDepts() {
