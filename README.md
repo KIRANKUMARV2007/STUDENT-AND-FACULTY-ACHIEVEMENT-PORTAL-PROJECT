@@ -5,9 +5,6 @@ A web-based portal for managing and verifying student achievements with separate
 ## 🌐 Live Demo
 https://student-and-faculty-achievement-por.vercel.app/
 
-## 📂 GitHub Repository
-https://github.com/KIRANKUMARV2007/STUDENT-AND-FACULTY-ACHIEVEMENT-PORTALPROJECT
-
 ## 🚀 Features
 
 - Multi-role Authentication (Student, Faculty, Admin)
@@ -31,10 +28,6 @@ https://github.com/KIRANKUMARV2007/STUDENT-AND-FACULTY-ACHIEVEMENT-PORTALPROJECT
 - Bootstrap 5
 - Chart.js
 - Vercel
-
-## 📸 Screenshots
-
-(Add project screenshots here)
 
 ## 👨‍💻 Team
 
